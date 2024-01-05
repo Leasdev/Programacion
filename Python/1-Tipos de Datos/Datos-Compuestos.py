@@ -1,12 +1,12 @@
-#Tipo de Datos:
+#Tipos de Datos Compuestos:
 
-#Lista: (se puede modificar)
+#Lista: se utiliza [] (se puede modificar)
 lista = ["Leandro", "Sun", 1.95, True]
 
-#Tupla: (no puede modificar)
+#Tupla: se utiliza () (no puede modificar)
 tupla = ("Leandro", "Sun", 1.95, True)
 
-#Conjunto (set): (no se accede por indice, no almacena datos duplicados)
+#Conjunto se utiliza {} (set): (no se accede por indice, no almacena datos duplicados)
 conjunto = {"Leandro", "Sun", 1.95, True}
 
 #Diccionario (dict):

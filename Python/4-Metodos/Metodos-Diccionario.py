@@ -1,3 +1,5 @@
+#Metodos de diccionarios:
+
 diccionario = {
     "nombre" : 'Leandro',
     "altura" : 195,

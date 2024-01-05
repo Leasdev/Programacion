@@ -1,4 +1,4 @@
-#Tipos de Datos:
+#Tipos de Datos Simples:
 
 #Enteros:
 40

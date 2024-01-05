@@ -1,3 +1,5 @@
+#Metodos de Strings:
+
 cadena = "Hola me llamo Leandro"
 cadena2 = "GURIMU DAWN"
 cadena3 = "leandro Sun"

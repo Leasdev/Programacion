@@ -1,13 +1,11 @@
+#For:
+#iteracion finita
 import os
 i = 1
+
 #lista
 gurimus = ["sun", "milan", "santi", "brian"]
 alturas = {194, 183, 183, 170}
-
-#for
-#for gurimu in gurimus:
-#    print("nombre [%d]: %s" %(i, gurimu.capitalize()))
-#    i += 1
 
 os.system("cls")
     
@@ -28,4 +26,16 @@ for num in enumerate(alturas):
 else:
     print("termino") # siempre se ejecuta
     
+#utilizando diccionario:
+diccionario = {
+    "nombre" : "Leandro",
+    "altura" : 195,
+    "crack" : True
+}
+
+"""for key in diccionario: 
+    print(key) # devuele solo la clave del diccionario"""
+    
+for datos in diccionario.items(): # devuelve la tupla
+    print("la key es %s y es %s" %(datos[0], datos[1]))        
     

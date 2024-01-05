@@ -1,3 +1,6 @@
+#Metodos de Listas:
+
+#utilizando la funcion list
 lista = list(["chau", False, 1, 2])
 
 cantidad = len(lista) # devuelve cantidad de elementos
