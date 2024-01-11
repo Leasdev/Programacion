@@ -1,18 +1,16 @@
-#Tipos de Datos Simples:
+# Tipos de Datos Simples
 
-#Enteros:
+# Enteros:
 40
 
-#Float:
+# Float:
 40.2
 
-#String:
+# String:
 'string' 
-"string"       #una sola linea
-"""string"""   #Muchas lineas
+"string"       # una sola linea
+"""string"""   # Muchas lineas
 
-#Boleano
+# Boleano
 True
 False
-
-

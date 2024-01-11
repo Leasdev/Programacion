@@ -1,12 +1,13 @@
 #While:
-#iteracion infinita
-import os
 
-os.system("cls")
+"""
+while expresion:
+    sentencia 1
+    sentencia n
+"""
 numero = input("ingrese un numero: ")
 
-#validacion utilizando while
-while not numero.isnumeric(): 
+while not numero.isnumeric():  # validacion utilizando while
     numero = input("Error, ingrese un numero: ")
     
 print("Ok, su numero es: %s" %(numero))

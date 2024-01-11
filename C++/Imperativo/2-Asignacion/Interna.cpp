@@ -1,8 +1,7 @@
 // Asignacion Interna
 
-/*
-   indentificador = expresion; 
-*/
+// indentificador = expresion; 
+
 #include <iostream>
 
 using namespace std;

@@ -1,0 +1,3 @@
+prueba
+testeando el writelines
+Agregando al archivo
