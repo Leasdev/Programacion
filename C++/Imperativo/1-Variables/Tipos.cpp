@@ -2,7 +2,7 @@
 
 // Declaracion de variables en C/C++
 /*
-   tipo indetificador;
+   tipo identificador;
    tipo id = valor inicial;
    tipo id1, id2, id3;
 */

@@ -1,17 +1,17 @@
 #Condicional:
 
 """
-if indetificador =/>/</==/>=/<=/!= dato:
+if identificador =/>/</==/>=/<=/!= dato:
     sentencia 1
     sentencia n
 else
     sentencia 1
     sentencia n
 
-if indetificador =/>/</==/>=/<=/!= dato:
+if identificador =/>/</==/>=/<=/!= dato:
     sentencia 1
     sentencia n
-elif indetificador =/>/</==/>=/<=/!= dato:
+elif identificador =/>/</==/>=/<=/!= dato:
     sentencia 1
     sentencia n
 else

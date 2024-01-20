@@ -1,36 +1,36 @@
 # Clases y Objetos
 """
 class Nombre():                                                     # atributos estaticos
-    indentificador = valor 1                   
-    indentificador = valor n
+    identificador = valor 1                   
+    identificador = valor n
 
-indentificador = Nombre()                                           # instancia de la clase
+identificador = Nombre()                                           # instancia de la clase
 """
 # Atributos
 """
 # metodo constructor
 class Nombre:                                                       # se va a ejecutar simepre cuando se pase el objeto
-    def __init__(self, indetificador1 , ...,indentificador n):      # self: se refiere a si mismo 
-        self.indent1 = indetificador1
+    def __init__(self, idetificador1 , ...,identificador n):        # self: se refiere a si mismo 
+        self.indent1 = idetificador1
         ...
-        self.indentn = indetificadorn
+        self.identn = idetificadorn
         
-indentificador = Nombre("string", "string", int)                    # cualquier tipo de dato 
+identificador = Nombre("string", "string", int)                    # cualquier tipo de dato 
 """
 # Metodos
 """
 class Nombre:                                                       
-    def __init__(self, indetificador1 , ...,indentificador n):           
-        self.indent1 = indetificador1
+    def __init__(self, idetificador1 , ...,identificador n):           
+        self.ident1 = idetificador1
         ...
-        self.indentn = indetificadorn
+        self.identn = idetificadorn
         
     def accion(self):                                               # metodo
         sentencia 1
         sentencia n
 
-indentificador = Nombre("string", "string", int)
-indentificador.accion()
+identificador = Nombre("string", "string", int)
+identificador.accion()
 """
 
 class Juego:
@@ -40,11 +40,7 @@ class Juego:
             self.categoria = Icategoria
     
     def abrir(self):
-        print("Abriste el juego %s\nCategoria: %s\nConsola: %s\n" %(self.nombre,self.categoria, self.consola))        
-    
-             
+        print("Abriste el juego %s\nCategoria: %s\nConsola: %s" %(self.nombre,self.categoria, self.consola))
+               
 juego1 = Juego("Rocket League", "PC", "Football")
 juego2 = Juego("Grim Dawn", "PC", "RPG")
-
-juego1.abrir()
-juego2.abrir()

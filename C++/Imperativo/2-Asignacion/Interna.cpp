@@ -1,6 +1,6 @@
 // Asignacion Interna
 
-// indentificador = expresion; 
+// identificador = expresion; 
 
 #include <iostream>
 

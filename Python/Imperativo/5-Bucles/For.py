@@ -1,15 +1,15 @@
 #For:
 
 """
-for indetificador, ... in expresion:
+for identificador, ... in expresion:
     sentencia 1
     sentencia n
     
-for indetificador in range(numero):                 # itera cantidad del rango
+for identificador in range(numero):                 # itera cantidad del rango
     sentencia 1
     sentencia n
     
-for indetificador in enumarate(numero):             # recorre la lista devuelve un tuple
+for identificador in enumarate(numero):             # recorre la lista devuelve un tuple
     sentencia 1
     sentencia n
 """

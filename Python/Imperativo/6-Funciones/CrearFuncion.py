@@ -1,10 +1,10 @@
 # Crear funcion:
 """
-def indetificador(parametros):          # funcion simple
+def identificador(parametros):          # funcion simple
     sentencia 1
     sentencia n
     
-def indetificador(parametros):          # funcion con return
+def identificador(parametros):          # funcion con return
     sentencia 1
     sentencia n
     return expresion

@@ -1,7 +1,7 @@
 # Funcion Lambda
 
 """
-indetificador = lambda parametro, ... : expresion                # apto para solo una instruccion, y return   
+identificador = lambda parametro, ... : expresion                # apto para solo una instruccion, y return   
 """
 sumar = lambda x, y : x + y
 
@@ -10,7 +10,7 @@ print("sumar(1,2): %s" %(sumar(1,2)))
 # Funcion Filter
 
 """
-indetificador = filter(funcion, (lista, conjunto, tupla))        # variable = filter(funcion, parametro)
+identificador = filter(funcion, (lista, conjunto, tupla))        # variable = filter(funcion, parametro)
 """
 sopa = ["a", "1", "b", "2", "c", "3"]
 

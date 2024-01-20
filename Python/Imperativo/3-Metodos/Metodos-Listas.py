@@ -1,7 +1,7 @@
 #Metodos de Listas:
 
 """
-indetificador = len(lista)                  # devuelve cantidad de elementos
+idetificador = len(lista)                   # devuelve cantidad de elementos
 lista.append("string")                      # agrega al final de la lista
 lista.insert(1, "string")                   # agrega un elemento en la posicion indicada
 lista.extend(["string", ...])               # agrega varios elementos a la lista

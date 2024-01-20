@@ -1,7 +1,7 @@
 // Asignacion Externa
 
 // Entrada
-// cin >> indentificador
+// cin >> identificador
 
 // Salida
 // cout << expresion
