@@ -1,5 +1,7 @@
 # Polimorfismo
 
+# El mismo metodo se aplica a distintos objetos
+
 class Perro:
     def sonido(self):
         return "Guau"
