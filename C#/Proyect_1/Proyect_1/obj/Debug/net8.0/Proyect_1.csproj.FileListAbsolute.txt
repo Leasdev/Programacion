@@ -1,0 +1,15 @@
+C:\Users\Leandro\Desktop\Programacion\C#\Proyect_1\Proyect_1\bin\Debug\net8.0\Proyect_1.exe
+C:\Users\Leandro\Desktop\Programacion\C#\Proyect_1\Proyect_1\bin\Debug\net8.0\Proyect_1.deps.json
+C:\Users\Leandro\Desktop\Programacion\C#\Proyect_1\Proyect_1\bin\Debug\net8.0\Proyect_1.runtimeconfig.json
+C:\Users\Leandro\Desktop\Programacion\C#\Proyect_1\Proyect_1\bin\Debug\net8.0\Proyect_1.dll
+C:\Users\Leandro\Desktop\Programacion\C#\Proyect_1\Proyect_1\bin\Debug\net8.0\Proyect_1.pdb
+C:\Users\Leandro\Desktop\Programacion\C#\Proyect_1\Proyect_1\obj\Debug\net8.0\Proyect_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leandro\Desktop\Programacion\C#\Proyect_1\Proyect_1\obj\Debug\net8.0\Proyect_1.AssemblyInfoInputs.cache
+C:\Users\Leandro\Desktop\Programacion\C#\Proyect_1\Proyect_1\obj\Debug\net8.0\Proyect_1.AssemblyInfo.cs
+C:\Users\Leandro\Desktop\Programacion\C#\Proyect_1\Proyect_1\obj\Debug\net8.0\Proyect_1.csproj.CoreCompileInputs.cache
+C:\Users\Leandro\Desktop\Programacion\C#\Proyect_1\Proyect_1\obj\Debug\net8.0\Proyect_1.sourcelink.json
+C:\Users\Leandro\Desktop\Programacion\C#\Proyect_1\Proyect_1\obj\Debug\net8.0\Proyect_1.dll
+C:\Users\Leandro\Desktop\Programacion\C#\Proyect_1\Proyect_1\obj\Debug\net8.0\refint\Proyect_1.dll
+C:\Users\Leandro\Desktop\Programacion\C#\Proyect_1\Proyect_1\obj\Debug\net8.0\Proyect_1.pdb
+C:\Users\Leandro\Desktop\Programacion\C#\Proyect_1\Proyect_1\obj\Debug\net8.0\Proyect_1.genruntimeconfig.cache
+C:\Users\Leandro\Desktop\Programacion\C#\Proyect_1\Proyect_1\obj\Debug\net8.0\ref\Proyect_1.dll

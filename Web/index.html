@@ -1,0 +1,86 @@
+<!DOCTYPE html> 
+<html>
+<head>    
+    <title>Test</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 200px;">
+        <!-- fila -->
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>celular</td>
+                <td>gratis</td>
+            </tr>
+            <tr>
+                <td>telefono grande</td>
+                <td>20$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: 20$</td>
+        </tfoot>
+    </table>
+    <!-- lista no ordenada -->
+    <ul>
+        <!-- elemento de la lista -->
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+    </ul>
+    <!-- lista ordenada -->
+    <ol>
+        <!-- elemento de la lista -->
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha;">sub elemento 1</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 2</li>
+            </ol>
+        </li>
+    </ol>
+
+
+    <h1>Heading</h1> <!-- Heading (max 7)-->
+    <p>Hola test parrafo</p> <!-- Parrafo -->
+    <h2>2 Heading</h2>
+    <h3>3 Heading</h3>
+    <h4>4 Heading</h4>
+    <h5>5 Heading</h5>
+    <h6>6 Heading</h6>
+    <hr> <!-- Separacion -->
+    <h1>Otro Heading</h1>
+    <p>
+        otro parrafo <span style = "color:blue">mucho mas largo</span> <!-- estilo de letra-->
+        que otro <br>parrafo <!-- salto de linea -->
+    </p>
+    <!-- Hiper Vinculo-->
+    <a target="_blank" href="https://www.Google.com">Ir a Google</a>
+    <!-- target = _blank abre sobre otra pestana-->
+    <!-- Imagen-->
+    <img src="Images/Kanto.png" width="400"/>
+    <form action="/formulario" method="post">
+        <label for="nombre" style="color:chocolate">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre"/> <!--type=(text, email, password, radio, checkbox, file)-->
+        <br>
+        <label for="apellido" style="color:chocolate">Nombre</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido"/>
+        <br>
+        <label for="comentario">Comentario</label>
+        <br>
+        <textarea cols="50" rows="10" id="comentario" placeholder="comentario" name="comentario"></textarea>
+        <button type="reset">Enviar</button> <!--button, sumbit, reset-->
+    </form>
+</body>
+</html>
