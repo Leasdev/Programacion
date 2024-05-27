@@ -78,15 +78,15 @@ class ChessGame:
         self.piezas = []
 
         # Peon        
-        peon_negro = pygame.image.load("Python/Objetos/Ejercicios/Chess/Images/nP.png")
-        peon_blanco = pygame.image.load("Python/Objetos/Ejercicios/Chess/Images/bP.png")
+        peon_negro = pygame.image.load("Python/Objetos/Proyectos/Chess/Images/nP.png")
+        peon_blanco = pygame.image.load("Python/Objetos/Proyectos/Chess/Images/bP.png")
         for i in range(8):
             self.piezas.append(Peon("nP_" + str(i+1), 1, i, peon_negro, cuadrado, "n"))
             self.piezas.append(Peon("bP_"+ str(i+1), 6, i, peon_blanco, cuadrado, "b"))   
                             
         # Torre    
-        torre_negro = pygame.image.load("Python/Objetos/Ejercicios/Chess/Images/nT.png")
-        torre_blanco = pygame.image.load("Python/Objetos/Ejercicios/Chess/Images/bT.png")
+        torre_negro = pygame.image.load("Python/Objetos/Proyectos/Chess/Images/nT.png")
+        torre_blanco = pygame.image.load("Python/Objetos/Proyectos/Chess/Images/bT.png")
     
         self.piezas.append(Torre("nT_1", 0, 0, torre_negro, cuadrado, "n"))
         self.piezas.append(Torre("bT_1", 7, 0, torre_blanco, cuadrado, "b"))
@@ -94,8 +94,8 @@ class ChessGame:
         self.piezas.append(Torre("bT_2", 7, 7, torre_blanco, cuadrado, "b"))   
            
         # Caballo
-        caballo_negro = pygame.image.load("Python/Objetos/Ejercicios/Chess/Images/nC.png")
-        caballo_blanco = pygame.image.load("Python/Objetos/Ejercicios/Chess/Images/bC.png")
+        caballo_negro = pygame.image.load("Python/Objetos/Proyectos/Chess/Images/nC.png")
+        caballo_blanco = pygame.image.load("Python/Objetos/Proyectos/Chess/Images/bC.png")
      
         self.piezas.append(Caballo("nC_1", 0, 1, caballo_negro, cuadrado, "n"))
         self.piezas.append(Caballo("bC_1", 7, 1, caballo_blanco, cuadrado, "b"))
@@ -103,8 +103,8 @@ class ChessGame:
         self.piezas.append(Caballo("bC_2", 7, 6, caballo_blanco, cuadrado, "b"))                    
             
         # Alfil
-        alfil_negro = pygame.image.load("Python/Objetos/Ejercicios/Chess/Images/nA.png")
-        alfil_blanco = pygame.image.load("Python/Objetos/Ejercicios/Chess/Images/bA.png")
+        alfil_negro = pygame.image.load("Python/Objetos/Proyectos/Chess/Images/nA.png")
+        alfil_blanco = pygame.image.load("Python/Objetos/Proyectos/Chess/Images/bA.png")
         
         self.piezas.append(Alfil("nA_1", 0, 2, alfil_negro, cuadrado, "n"))
         self.piezas.append(Alfil("bA_1", 7, 2, alfil_blanco, cuadrado, "b"))
@@ -112,14 +112,14 @@ class ChessGame:
         self.piezas.append(Alfil("bA_2", 7, 5, alfil_blanco, cuadrado, "b"))   
             
         # Reina
-        reina_negro = pygame.image.load("Python/Objetos/Ejercicios/Chess/Images/nQ.png")
-        reina_blanco = pygame.image.load("Python/Objetos/Ejercicios/Chess/Images/bQ.png")       
+        reina_negro = pygame.image.load("Python/Objetos/Proyectos/Chess/Images/nQ.png")
+        reina_blanco = pygame.image.load("Python/Objetos/Proyectos/Chess/Images/bQ.png")       
         self.piezas.append(Reina("nQ_1", 0, 3, reina_negro, cuadrado, "n"))
         self.piezas.append(Reina("bQ_1", 7, 3, reina_blanco, cuadrado, "b"))   
                         
         # Rey
-        rey_negro = pygame.image.load("Python/Objetos/Ejercicios/Chess/Images/nK.png")
-        rey_blanco = pygame.image.load("Python/Objetos/Ejercicios/Chess/Images/bK.png")       
+        rey_negro = pygame.image.load("Python/Objetos/Proyectos/Chess/Images/nK.png")
+        rey_blanco = pygame.image.load("Python/Objetos/Proyectos/Chess/Images/bK.png")       
         self.piezas.append(Rey("nK_1", 0, 4, rey_negro, cuadrado, "n"))
         self.piezas.append(Rey("bK_1", 7, 4, rey_blanco, cuadrado, "b"))   
             
