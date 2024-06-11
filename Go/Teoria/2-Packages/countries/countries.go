@@ -5,9 +5,11 @@ import (
 	"fmt"
 )
 
-var myCountry string
-var collection []string
-var errNotFound error = errors.New("country not found")
+var (
+	myCountry   string
+	collection  []string
+	errNotFound error = errors.New("country not found")
+)
 
 // Add Agrega el valor de un pais.
 func Add(country string) {
